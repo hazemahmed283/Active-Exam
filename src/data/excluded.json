@@ -1,0 +1,6 @@
+[
+ {
+  "num": 95,
+  "reason": "Drag-and-drop ordering question (the answer is a sequence, not a selection set). It cannot be shown as single/multiple choice without changing the question or leaking the key, so it was left out to reach exactly 100."
+ }
+]

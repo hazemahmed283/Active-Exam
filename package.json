@@ -1,0 +1,27 @@
+{
+  "name": "fortios-76-practice-exam",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "FortiOS 7.6 Administrator — Randomized Practice Exam (built from FortiOS_Dump.pdf)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "tsx scripts/validate.ts",
+    "build:standalone": "node scripts/build-standalone.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}
